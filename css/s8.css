@@ -1,0 +1,55 @@
+body{
+    background-color: azure;
+    color:black;
+    margin: 5px;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header,
+footer {
+text-align: center;
+background-color: bisque;
+}
+p{
+    text-align: right;
+}
+h2,h3,h4{
+    color:crimson;
+    text-decoration-line: underline ;
+}
+p{
+    text-align: justify;
+    text-indent: 8ch;
+}
+p::first-letter{
+    font-size: 120%;
+    color: brown;
+    text-decoration-line: underline;
+}
+.letter1{
+    color: crimson;
+    text-decoration-line: underline ;
+    font-size: 120%;
+}
+h2,
+h3,
+h4{
+    color: blueviolet;
+    text-decoration: underline;
+}
+p::first-line{
+    font-size: 120%;
+    color: cornflowerblue;
+    text-decoration-line: underline;
+}
+section:hover{
+    background-color:rgb(187, 255, 173);
+}
+.myimage-div
+{
+    display: none;
+}
+a.myimage-ssilka:hover+div
+{
+    display: block;
+}
